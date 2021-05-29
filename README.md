@@ -5,7 +5,7 @@
 MAKEFLAGS="CWARNFLAGS=-Wno-error" ./build.sh
 ```
 
-## Tips
+### Tips
 
 1. ビルドの途中で失敗した。
 
@@ -26,3 +26,24 @@ src/配下の該当するパッケージのフォルダ(`build xxx yyy` の場�
 ```
 $ rm -r src/xxx/yyy/builddir
 ```
+
+## Run
+
+- CLIモードになる。
+- 既存のディスプレイマネージャを停止する。
+
+GNOMEとかを使っていれば
+```
+$ systemctl stop gdm
+```
+
+- Run
+
+```
+$ cd build/bin
+$ ./xinit # super userで実行
+```
+
+- 停止
+
+起動したときに出てくるシェルから`exit`すれば停止する。
