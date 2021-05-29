@@ -1,0 +1,4 @@
+[submodule "src/util/modular"]
+	path = src/util/modular
+	url = git@github.com:Aki-7/xorg-modular.git
+	branch = ubuntu20.04
