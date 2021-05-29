@@ -14,7 +14,7 @@ MAKEFLAGS="CWARNFLAGS=-Wno-error" ./build.sh
 
 1. ビルドの途中で失敗した。
 
-`build.sh` の build_all_modules() の `build xxx yyy` の部分をビルドが終わったとこまでコメントアウトして、
+`src/util/modular/build.sh` の build_all_modules() の `build xxx yyy` の部分をビルドが終わったとこまでコメントアウトして、
 再開したいとこから始める。
 
 ビルドキャッシュなどで再開がうまく行かないことがある。
