@@ -44,11 +44,9 @@ $ systemctl stop gdm
 
 - Run
 
-```
-cd build/bin
-```
-```
-./xinit # super userで実行
+```shell
+$ cd build/bin
+$ ./xinit # super userで実行
 ```
 
 - 停止
