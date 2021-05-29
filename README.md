@@ -1,4 +1,9 @@
-# Build Xorg libraries
+# Build X libraries
+
+X Window Systemのライブラリをソースからビルドする。
+
+ビルドの仕方は[公式のページ](https://www.x.org/wiki/Building_the_X_Window_System/)にまとめられているが、
+管理しているgitレポジトリがGitLabに移行した？ことにより、うまく動かなかったので、動くようにした。
 
 ## Build
 ```
