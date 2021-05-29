@@ -1,5 +1,10 @@
 # Build Xorg libraries
 
+## Build
+```
+MAKEFLAGS="CWARNFLAGS=-Wno-error" ./build.sh
+```
+
 ## Tips
 
 1. ビルドの途中で失敗した。
