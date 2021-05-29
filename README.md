@@ -29,7 +29,7 @@ src/配下の該当するパッケージのフォルダ(`build xxx yyy` の場�
 ディレクトリが生成されているので、それを削除してあげる。
 
 ```
-$ rm -r src/xxx/yyy/builddir
+rm -r src/xxx/yyy/builddir
 ```
 
 ## Run
@@ -45,8 +45,10 @@ $ systemctl stop gdm
 - Run
 
 ```
-$ cd build/bin
-$ ./xinit # super userで実行
+cd build/bin
+```
+```
+./xinit # super userで実行
 ```
 
 - 停止
