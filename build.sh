@@ -7,7 +7,7 @@ echo_and_exec() {
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 cd $SCRIPTPATH/src
 
-git clone -b server-1.20-branch git@gitlab.freedesktop.org:xorg/xserver.git $SCRIPTPATH/src/xserver
+git clone -b server-1.20-branch https://gitlab.freedesktop.org/xorg/xserver.git $SCRIPTPATH/src/xserver
 
 GITROOT=https://gitlab.freedesktop.org
 export GITROOT
